@@ -1,0 +1,10 @@
+<section>
+    <h2> There are {{restaurantList.length}}restaurants in the list></h2>
+    {{#each restaurantList}}
+    <arcticle>
+        <h2> {{name}}</h2>
+        <img class='rest-img' src = "{{image}}" alt="restaurant image">
+        <a class ="btn" href="restaurants/{{id}}">View restaurant</a>
+    </arcticle>
+    {{/each}}
+</section>
